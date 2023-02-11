@@ -1,0 +1,148 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#menu_top {
+    background: #141414;
+    height: 40px;
+}
+
+#banner {
+    height: auto;
+    width: 1000px;
+}
+
+#main #left {
+    width: 690px;
+    float: left;
+    min-height: 400px;
+}
+
+#main #right {
+    width: 300px;
+    float: right;
+    min-height: 400px;
+}
+
+#footer {
+    background: #141414;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: antiquewhite;
+    clear: left;
+    line-height: 60px;
+
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a {
+    height: 40px;
+    line-height: 40px;
+    color: azure;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid antiquewhite;
+    font-size: 14px;
+}
+
+#menu_top ul li a.active {
+    background: steelblue;
+}
+
+#menu_top ul li a:hover {
+    background: steelblue;
+}
+
+#banner img {
+    width: 1000px;
+    height: 332px;
+}
+
+#main #left ul li {
+    list-style: none;
+    clear: left;
+    border-bottom: 2px;
+    float: left;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#main #left ul li img {
+    width: 120px;
+    height: 90px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#main #left ul li h2 {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+#main #left ul li h2 a {
+    color: #141414;
+}
+
+#main #left ul li h2 a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+#main #left ul li p {
+    font-size: 13px;
+}
+
+#main {
+    margin-top: 10px;
+}
+
+#main #right .menu_right ul {
+    margin-top: -15px;
+    border: 1px solid #ccc;
+}
+
+#main #right .menu_right ul li {
+    list-style: none;
+}
+
+#main #right .menu_right ul li a {
+    line-height: 44px;
+    border-bottom: 1px solid #ccc;
+    background: url(../images/icon_square.png) no-repeat 0px;
+    text-indent: 40px;
+    font-size: 16px;
+    height: 40px;
+    color: slategrey;
+}
+
+#main #right .menu_right ul li a:hover {
+    color: orangered;
+}
+
+#main #right .menu_right h3 {
+    background: #194d58 url(../images/icon_menu.png) no-repeat 3px;
+    height: 40px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 40px;
+    color: antiquewhite;
+    text-indent: 40px;
+}
